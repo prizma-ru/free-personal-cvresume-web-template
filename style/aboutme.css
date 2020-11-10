@@ -1,0 +1,29 @@
+/*Обнуление*/
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 1300px;
+}
+
+/* Style for "Background" */
+
+
+
+.container{
+    width: 1120px;; /*ширина блока*/
+    max-width: 100%; /*максимальный размер 1440пх*/
+    margin: 0 auto; /*выровниваем по центру*/
+    padding: 30px;
+}
+
+/* Style for "Layer 36" */
+width: 1300px;
+height: 586px;
