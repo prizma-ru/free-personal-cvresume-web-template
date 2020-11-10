@@ -11,19 +11,164 @@
 body{
     font-family: 'Raleway', sans-serif;
     width: 1300px;
+    width: 100%; /*ширина блока*/
+    margin: 0 auto; /*выровниваем по центру*/
+    color: #ffffff;
 }
 
 /* Style for "Background" */
 
-
-
+.header__block{    
+    height:  586px;
+   background: #1a1819 url("../img/Header_Bg.jpg") center no-repeat;
+ 
+}
+.header__flex{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 88px;
+}
 .container{
     width: 1120px;; /*ширина блока*/
     max-width: 100%; /*максимальный размер 1440пх*/
     margin: 0 auto; /*выровниваем по центру*/
-    padding: 30px;
+   
 }
 
-/* Style for "Layer 36" */
-width: 1300px;
-height: 586px;
+.header__title{    
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 210px;
+    margin-bottom: 25px;
+ 
+}
+.header__text{   
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.header__form{
+    text-align: center;
+}
+
+.header__btn{
+    width: 170px;
+    height: 49px;        
+        background-color: #fb6470;
+        font-weight: bold;      
+        color: #ffffff;
+        cursor: pointer;
+        text-transform: uppercase;
+        border: 2px solid  #fb6470; 
+        outline: none; /*убирает черный бордер при клике по кнопке*/
+        margin-bottom: 100px;
+}
+
+.header__title:after {
+    content: "";
+    display: block;      
+    margin: 0 auto -5px;
+    width: 327px;
+    height: 2px;
+    background-color: #fb6470;
+
+    
+}
+.header__title:before {
+    content: "";
+    content: "";
+    display: block;      
+    margin: 0 auto -5px;
+    width: 327px;
+    height: 2px;
+    background-color: #fb6470;
+}
+
+.aboutme__flex{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutme__info{
+    
+}
+
+.aboutme__card{
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+}
+.aboutme__title{
+    color: #3e3e3e;
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-bottom: 50px;    
+
+}
+.aboutme__text{      
+    opacity: 0.8;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left; 
+    line-height: normal;
+    padding-bottom: 40px;
+}
+.aboutme__param{
+    color: #3e3e3e;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+ 
+}
+
+
+
+.aboutme__param{
+    padding-right: 30px;
+
+}
+.aboutme__data{
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 18px;   
+    line-height: 50px;
+    text-align: left;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    
+}
+
+.aboutme__card p{
+    padding-bottom: 15px;
+}
+    
+p{
+  border-bottom: 2px solid  #e5e5e5 ;   
+}
+
+
+  
+  /*#e5e5e5 цвет для линии*/
