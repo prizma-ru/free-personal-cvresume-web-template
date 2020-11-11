@@ -96,9 +96,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.aboutme__info{
+/* .aboutme__info{
     
-}
+} */
 
 .aboutme__card{
     display: flex; 
@@ -183,37 +183,179 @@ background-color: #353541; */
     padding-bottom: 100px;
 }
 
-.experience__cloud{
+
+.experience__title{
+    color: #3e3e3e;
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+.experience__flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+
+.experience__item{
     width: 512px;
-    height: 147px;
+    height: 147px; 
+  
+   
+
+}
+
+.experience__item.right{
     background: #ffffff url("../img/Rounded_Rectangle_right.svg") center no-repeat;
     top:50%;
     left:50%;
+    padding: 20px 82px 20px 20px;
+}   
+
+.experience__item.left{
+    background: #ffffff url("../img/Rounded_Rectangle_left.svg") center no-repeat;
+    top:50%;
+    left:50%;
+    padding: 20px 120px 20px 60px;
 }
+
+.right{
+    margin-top: 100px;
+}
+
+.right.long, .left.long{
+    margin-top: 190px;
+}
+
+
 .experience__position{  
-color: #ffffff;
-font-family: Raleway;
-font-size: 22px;
-font-weight: 500;
-text-align: left;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-bottom: 15px;
 }
-.experience__position span{
- 
+.experience__company{ 
+    padding-left: 27px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: normal;
+}
+.experience__data{
+    display: block;
+    color: #fb6470;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-bottom: 15px;
+}
 
-opacity: 0.8;
-color: #ffffff;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 500;
-font-style: normal;
-letter-spacing: normal;
+.experience__text{
+    display: block;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27.62px;
+    text-align: left;
+    line-height: normal;
+    
+}
+.experience__item.right p.experience__text{
+    padding-right: 100px;
+}
+.vl {
+    border-left: 2px solid  #353541;
+    height: auto;  
+    margin-left: -1px;    
+    position: relative;
 
-text-align: left;
+}
 
+.cirlce_1{
+    position: absolute;
+    top: 0;
+    left: -21px;
+}
 
+.cirlce_2{
+    position: absolute;
+    top: 180px;
+    left:-21px;
+}
+.cirlce_3{
+    position: absolute;
+    top: 318px;
+    left:-21px;
 
-line-height: normal;
+}
+.cirlce_4{
+    position: absolute;
+    bottom: 0;
+    left:-21px;
+}
+
+.myskills{
+    background-color: #1d1d24;
+    padding: 64px;
+    
+}
+
+.myskills__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.myskills__card{
+    flex: 33.33333%;
+
+}
+.myskills_skill{
+    border-bottom: 2px solid #e85662;
+    padding-bottom: 10px;
+    margin: 60px;
+}
+
+.myskills__card .myskills_skill:nth-child(-n+3){
+    margin-left: 0;
+}
+.myskills__card .myskills_skill:nth-child(n+7){
+    margin-right: 0;
+}
+.skill_1{
+    position: relative;
+}
+
+.test{
+    position: absolute;
+    display:block;
+    bottom: -10px;
+    right: -40px;
 }
