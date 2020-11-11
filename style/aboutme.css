@@ -21,6 +21,7 @@ body{
 .header__block{    
    height:  586px;
    background: #1a1819 url("../img/Header_Bg.jpg") center no-repeat;
+   margin-bottom: 75px;
  
 }
 .header__flex{
@@ -95,6 +96,7 @@ body{
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 /* .aboutme__info{
     
@@ -128,7 +130,7 @@ body{
     text-align: left; 
     line-height: normal;
     padding-bottom: 40px;
-    padding-right: 190px;
+   
     line-height: 1.625;
 }
 
@@ -180,7 +182,22 @@ background-color: #353541; */
   border-bottom: 2px solid  #e5e5e5 ;   
 }
 .aboutme__photo{
-    padding-bottom: 100px;
+    
+    height: 526px;
+    min-width:  380px;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+.aboutme__photo img {
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate3d(-50%, -50%, 0);
 }
 
 
@@ -597,7 +614,7 @@ textarea::placeholder{
 
 .message__items{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     text-align: center;
     padding-bottom: 32px;
 }
@@ -610,7 +627,7 @@ h3{
     font-style: normal;
     letter-spacing: normal;
     line-height: 50px;
-    text-align: left;
+    
     line-height: normal;
 }
 .message__text{
@@ -626,4 +643,8 @@ h3{
     letter-spacing: normal;
     line-height: 50px;
     line-height: normal;
+}
+
+.message__img{
+    padding-right: 46px;
 }
